@@ -38,7 +38,9 @@ def evaluate_num2(num)
   end
 end
 
+puts "Please enter a number between 0 and 100"
+number = gets.chomp.to_i
 
-evaluate_num(24)
-evaluate_num1(51)
-evaluate_num2(-1)
+evaluate_num(number)
+evaluate_num1(number)
+evaluate_num2(number)
